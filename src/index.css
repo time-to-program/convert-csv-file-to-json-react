@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   outline: none;
 }
@@ -10,15 +12,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: #F0F1FF;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px 20px 10px 20px;
 }
 
 .json-container {
   max-width: 50rem;
   max-height: 70vh;
-  background-color: #F5F5F5;
+  background-color: #1F2937;
   padding: 15px;
-  border-radius: 12px;
+  border-radius: 6px;
   margin-top: 15px;
   overflow: auto;
 }
@@ -26,16 +34,16 @@ body {
 pre {
   font-size: 13px;
   font-weight: 500;
-  color: #000;
+  color: #E4E7EB;
   margin: 10px 0;
 }
 
 p {
   font-size: 15px;
   font-weight: 500;
-  color: #000;
+  color: #353d9f;
   margin: 10px 0;
-  background-color: #FFF9D5;
+  background-color: #ebecf5;
   padding: 10px 25px;
   border-radius: 6px;
   margin-top: 30px;
